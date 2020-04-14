@@ -1,0 +1,71 @@
+.card {
+  padding: 0;
+  margin-bottom: 40px;
+  border: 0px;
+  position: relative;
+  width: 280px;
+}
+.card__body {
+  margin: 5px;
+  padding: 5px;
+}
+.card__body--heart {
+  left: 80%;
+  top: 50px;
+  position: absolute;
+}
+.card__body--bg {
+  width: 280px;
+}
+.card__bottom {
+  border-radius: 10px;
+  width: 250px;
+  background: white;
+  position: relative;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.8);
+  padding: 20px 30px;
+  margin-top: -90px;
+  margin-left: 25px;
+}
+.card__bottom--star {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.card__bottom--review {
+  color: grey;
+  font-size: 8px;
+}
+.card__bottom__house {
+  margin: 2px;
+  font-size: 20.943392px;
+}
+.card__bottom__italy {
+  margin: 2px;
+  color: grey;
+  font-size: 8px;
+}
+.card__bottom__price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12.944px;
+}
+.card__bottom__price--right {
+  color: #1364fd;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 424px) {
+  .card__body--heart {
+    left: 75%;
+  }
+}
+.container {
+  width: 900px;
+  background-image: url("/src/img/sp_main_bg.png");
+  background-size: cover;
+}
+
+/*# sourceMappingURL=style.css.map */

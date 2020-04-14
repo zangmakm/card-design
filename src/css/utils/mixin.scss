@@ -1,0 +1,22 @@
+@mixin MQ($canvas) {
+  @if $canvas == S {
+    @media only screen and (max-width: $S) {
+      .card__body--bg {
+      }
+      .card__body--heart {
+        left: 75%;
+      }
+      .card__bottom {
+      }
+    }
+  } @else if $canvas == M {
+    @media only screen and (max-width: $L) and (min-width: $M) {
+      .card__body--bg {
+      }
+      .card__body--heart {
+      }
+      .card__bottom {
+      }
+    }
+  }
+}
