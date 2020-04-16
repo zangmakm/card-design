@@ -64,8 +64,11 @@
 }
 .container {
   width: 900px;
-  background-image: url("/src/img/sp_main_bg.png");
+  background-image: url("./src/img/sp_main_bg.png");
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=style.css.map */
